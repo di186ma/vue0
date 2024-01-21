@@ -1,0 +1,173 @@
+.promo {
+  padding: 100px 0;
+  background: linear-gradient(180deg, #0e1942 94.9%, #4f5570 100%);
+}
+@media screen and (max-width: 1199.98px) {
+  .promo {
+    padding: 80px 0;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .promo {
+    padding: 60px 0;
+  }
+}
+.promo .promo__bg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.promo .promo__bg h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+@media screen and (max-width: 1199.98px) {
+  .promo .promo__bg h2 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .promo .promo__bg h2 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+.promo .promo__bg p {
+  margin-top: 40px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1199.98px) {
+  .promo .promo__bg p {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .promo .promo__bg p {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .promo .promo__bg p {
+    text-align: center;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .promo .promo__bg p {
+    font-size: 24px;
+  }
+}
+.promo .promo__bg img {
+  border-radius: 30px;
+  width: 100%;
+}
+@media screen and (max-width: 991.98px) {
+  .promo .promo__bg img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.promo .promo__bg .promo__bg__socials {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 767.98px) {
+  .promo .promo__bg .promo__bg__socials {
+    margin-top: 30px;
+  }
+}
+.promo .promo__bg .promo__bg__socials:hover {
+  filter: drop-shadow(10px 10px 10px 0px rgba(0, 0, 0, 0.25));
+}
+.promo .promo__bg .promo__bg__socials .promo__bg__socials_msg {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 991.98px) {
+  .promo .promo__bg .promo__bg__socials .promo__bg__socials_msg {
+    grid-gap: 30px;
+  }
+}
+.promo .promo__bg .promo__bg__socials .promo__bg__socials_msg a {
+  padding-right: 33px;
+}
+@media screen and (max-width: 991.98px) {
+  .promo .promo__bg .promo__bg__socials .promo__bg__socials_msg a {
+    padding-right: 0;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .promo .promo__bg .promo__bg__socials .promo__bg__socials_msg a {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .promo .promo__bg .promo__bg__socials .promo__bg__socials_msg a img {
+    width: 60px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .promo .promo__bg .promo__bg__socials .promo__bg__socials_msg a img {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 565.98px) {
+  .promo .promo__bg .promo__bg__socials .promo__bg__socials_msg a img {
+    width: 70px;
+  }
+}
+.promo .promo__bg .promo__bg__socials button, .promo .promo__bg .promo__bg__socials button:hover {
+  width: 200px;
+  height: 100px;
+  background-color: #ede4e1;
+  color: #0e1942;
+  font-size: 32px;
+  font-weight: 700;
+  border-radius: 60px;
+}
+@media screen and (max-width: 1399.98px) {
+  .promo .promo__bg .promo__bg__socials button, .promo .promo__bg .promo__bg__socials button:hover {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .promo .promo__bg .promo__bg__socials button, .promo .promo__bg .promo__bg__socials button:hover {
+    width: 140px;
+    height: 70px;
+    font-size: 24px;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .promo .promo__bg .promo__bg__socials button, .promo .promo__bg .promo__bg__socials button:hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .promo .promo__bg .promo__bg__socials button, .promo .promo__bg .promo__bg__socials button:hover {
+    width: 160px;
+    height: 80px;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .promo .promo__bg .promo__bg__socials button, .promo .promo__bg .promo__bg__socials button:hover {
+    width: 140px;
+    height: 70px;
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=promo.css.map */

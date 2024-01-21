@@ -1,0 +1,57 @@
+@import "vars";
+
+footer {
+	background: $last-bg;
+	padding-bottom: 50px;
+
+	img {
+		width: 100%;
+	}
+
+	.row {
+		padding-top: 80px;
+		color: #ede4e1;
+		font-size: 22px;
+		font-weight: 500;
+		display: flex;
+		align-items: center;
+
+		@media screen and (max-width: 576.98px) {
+			padding-top: 50px;
+			font-size: 20px;
+		}
+
+		.f1 {
+			@media screen and (max-width: 576.98px) {
+				text-align: center;
+				padding-bottom: 30px;
+			}
+
+		}
+
+		.f2 {
+			text-align: center;
+		}
+
+		.f3 {
+			display: flex;
+			align-items: center;
+
+			.f3-img {
+				display: flex;
+				margin-left: auto;
+				grid-gap: 32px;
+
+				@media screen and (max-width: 767.98px) {
+					grid-gap: 20px;
+				}
+
+				img {
+					@media screen and (max-width: 767.98px) {
+						width: 50px;
+					}
+				}
+			}
+		}
+	}
+}
